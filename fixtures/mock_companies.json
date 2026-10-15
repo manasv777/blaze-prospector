@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Cedar Hollow Property Group",
+    "website": "https://cedarhollow.example",
+    "city": "Raleigh, NC",
+    "address": "114 Example St, Raleigh, NC",
+    "rating": 4.6,
+    "review_count": 38,
+    "html": "<html><head><title>Cedar Hollow Property Group</title><meta name='description' content='Family-run residential property management in Raleigh.'></head><body><h1>Cedar Hollow Property Group</h1><p>We are a family-run team managing single-family homes and duplexes across Wake County since 2009.</p><h2>For Residents</h2><p>Rent is due on the 1st. We accept rent by personal check or money order at our office, or you can drop it in our after-hours box.</p><h2>For Owners</h2><p>Owners receive a printed statement by mail along with their payout check by the 15th of each month.</p><h2>Careers</h2><p>We're hiring a part-time bookkeeper to help with owner payouts and vendor bills. Experience with QuickBooks a plus. Apply by email.</p></body></html>",
+    "mock_score": {
+      "manual_finance_likelihood": 5,
+      "reason": "They take rent by check, mail printed owner statements with payout checks, and are hiring a part-time bookkeeper for payouts and bills.",
+      "evidence_quote": "Owners receive a printed statement by mail along with their payout check by the 15th of each month.",
+      "portfolio_size_hint": null
+    }
+  },
+  {
+    "name": "Riverbend Residential",
+    "website": "https://riverbendresidential.example",
+    "city": "Durham, NC",
+    "address": "22 Example Ave, Durham, NC",
+    "rating": 4.8,
+    "review_count": 61,
+    "html": "<html><head><title>Riverbend Residential | Durham Rentals</title></head><body><h1>Riverbend Residential</h1><p>Locally owned and operated, Riverbend Residential manages over 140 homes and townhomes in Durham and Chapel Hill.</p><p>Our office manager reconciles every owner account by hand at the end of each month so nothing slips through the cracks.</p><p>Residents can pay rent online through our portal or by check. Owner statements are emailed as PDFs.</p><p>Call us today for a free rental analysis.</p></body></html>",
+    "mock_score": {
+      "manual_finance_likelihood": 4,
+      "reason": "An office manager reconciles every owner account by hand at month end, though residents can pay online.",
+      "evidence_quote": "Our office manager reconciles every owner account by hand at the end of each month so nothing slips through the cracks.",
+      "portfolio_size_hint": "manages over 140 homes and townhomes"
+    }
+  },
+  {
+    "name": "Willow Creek Property Management",
+    "website": "https://willowcreekpm.example",
+    "city": "Cary, NC",
+    "address": "9 Example Ct, Cary, NC",
+    "rating": 4.4,
+    "review_count": 23,
+    "html": "<html><head><title>Willow Creek Property Management</title></head><body><h1>Willow Creek Property Management</h1><p>A small, family-owned company serving Cary, Apex, and Morrisville.</p><p>We keep a detailed spreadsheet for every property so owners always know where their money went.</p><p>Owner portal coming soon. In the meantime, statements are emailed monthly.</p><p>Maintenance requests can be submitted by phone or email.</p></body></html>",
+    "mock_score": {
+      "manual_finance_likelihood": 4,
+      "reason": "They track each property in a spreadsheet and email statements while an owner portal is still coming.",
+      "evidence_quote": "We keep a detailed spreadsheet for every property so owners always know where their money went.",
+      "portfolio_size_hint": null
+    },
+    "mock_draft_behavior": "placeholder_then_ok"
+  },
+  {
+    "name": "Lantern Property Partners",
+    "website": "https://lanternpp.example",
+    "city": "Chapel Hill, NC",
+    "address": "301 Example Rd, Chapel Hill, NC",
+    "rating": 4.2,
+    "review_count": 17,
+    "html": "<html><head><title>Lantern Property Partners</title></head><body><h1>Lantern Property Partners</h1><p>Student and faculty rentals near campus, managed with a personal touch.</p><p>Each August our two-person office processes move-ins, security deposits, and owner distributions for the new lease year.</p><p>Rent may be paid by check, money order, or bank transfer.</p></body></html>",
+    "mock_score": {
+      "manual_finance_likelihood": 4,
+      "reason": "A two-person office handles deposits and owner distributions, and rent comes in by check or money order.",
+      "evidence_quote": "Each August our two-person office processes move-ins, security deposits, and owner distributions for the new lease year.",
+      "portfolio_size_hint": null
+    },
+    "mock_draft_behavior": "invented_number"
+  },
+  {
+    "name": "Bluebird Property Co.",
+    "website": "https://bluebirdproperty.example",
+    "city": "Raleigh, NC",
+    "address": "77 Example Blvd, Raleigh, NC",
+    "rating": 4.7,
+    "review_count": 92,
+    "html": "<html><head><title>Bluebird Property Co.</title><meta name='description' content='Raleigh property management powered by Buildium.'></head><body><h1>Bluebird Property Co.</h1><p>Full-service management for 85 single-family rentals in Raleigh and Garner.</p><p>Residents pay rent online through our Buildium resident portal.</p><p>Owner statements are posted to the owner portal by the 10th, and our accountant reviews each one before payouts go out.</p></body></html>",
+    "mock_score": {
+      "manual_finance_likelihood": 3,
+      "reason": "They use Buildium and an owner portal, but an accountant still reviews each statement by hand before payouts.",
+      "evidence_quote": "Owner statements are posted to the owner portal by the 10th, and our accountant reviews each one before payouts go out.",
+      "portfolio_size_hint": "85 single-family rentals"
+    }
+  },
+  {
+    "name": "Maple & Main Rentals",
+    "website": "https://maplemain.example",
+    "city": "Wake Forest, NC",
+    "address": "5 Example Ln, Wake Forest, NC",
+    "rating": 4.5,
+    "review_count": 140,
+    "html": "<html><head><title>Maple & Main Rentals</title></head><body><h1>Maple & Main Rentals</h1><p>We proudly manage 260 doors across northern Wake County.</p><p>Residents can pay rent online, submit maintenance requests, and sign leases electronically through AppFolio.</p><p>Owners get 24/7 access to statements and year-end tax documents in the owner portal.</p></body></html>",
+    "mock_score": {
+      "manual_finance_likelihood": 2,
+      "reason": "They run on AppFolio with online rent, e-signed leases, and a self-serve owner portal.",
+      "evidence_quote": "Owners get 24/7 access to statements and year-end tax documents in the owner portal.",
+      "portfolio_size_hint": "manage 260 doors"
+    }
+  },
+  {
+    "name": "Oakline Homes",
+    "website": "https://oaklinehomes.example",
+    "city": "Durham, NC",
+    "address": "1200 Example Pkwy, Durham, NC",
+    "rating": 4.1,
+    "review_count": 410,
+    "html": "<html><head><title>Oakline Homes | Apartment Living</title></head><body><h1>Oakline Homes</h1><p>Professionally managing 1,200 apartments across the Triangle.</p><p>Apply, pay rent, and request service anytime on RentCafe, powered by Yardi.</p><p>Our dedicated accounting department and regional controllers deliver institutional-grade reporting to every investor.</p></body></html>",
+    "mock_score": {
+      "manual_finance_likelihood": 1,
+      "reason": "Large operator on Yardi with a dedicated accounting department and institutional reporting.",
+      "evidence_quote": "Our dedicated accounting department and regional controllers deliver institutional-grade reporting to every investor.",
+      "portfolio_size_hint": "managing 1,200 apartments"
+    }
+  },
+  {
+    "name": "Stonegate Realty & Rentals",
+    "website": "https://stonegaterentals.example",
+    "city": "Garner, NC",
+    "address": "40 Example Dr, Garner, NC",
+    "rating": 4.3,
+    "review_count": 29,
+    "html": "<html><head><title>Stonegate Realty & Rentals</title></head><body><h1>Stonegate Realty & Rentals</h1><p>Buying, selling, and renting homes in Garner and Clayton for over twenty years.</p><p>Our rental division handles tenant screening, leasing, maintenance, and monthly reporting for local investors.</p><p>Contact our office to learn more about our management plans.</p></body></html>",
+    "mock_score": {
+      "manual_finance_likelihood": 4,
+      "reason": "Small realty office whose rental division handles all reporting in-house.",
+      "evidence_quote": "Our rental team does all the owner bookkeeping by hand every month.",
+      "portfolio_size_hint": null
+    }
+  },
+  {
+    "name": "Pinecrest Leasing",
+    "website": "https://pinecrestleasing.example",
+    "city": "Apex, NC",
+    "address": "8 Example Way, Apex, NC",
+    "rating": 3.9,
+    "review_count": 12,
+    "html": "<html><head><title>Pinecrest Leasing</title></head><body><div id='root'></div><noscript>Please enable JavaScript.</noscript><script src='/app.js'></script></body></html>",
+    "mock_score": {
+      "manual_finance_likelihood": 3,
+      "reason": "Not enough page text.",
+      "evidence_quote": "Pinecrest Leasing",
+      "portfolio_size_hint": null
+    }
+  },
+  {
+    "name": "Harbor Light Management",
+    "website": "https://harborlight.example",
+    "city": "Morrisville, NC",
+    "address": "62 Example Cir, Morrisville, NC",
+    "rating": 4.0,
+    "review_count": 8,
+    "simulate_error": "timed out after 10s",
+    "html": "",
+    "mock_score": {
+      "manual_finance_likelihood": 3,
+      "reason": "",
+      "evidence_quote": "",
+      "portfolio_size_hint": null
+    }
+  }
+]
